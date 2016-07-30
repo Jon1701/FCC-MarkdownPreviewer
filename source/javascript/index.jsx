@@ -1,1 +1,1 @@
-console.log('hello world');
+require('./MarkdownPreviewer/App.jsx');

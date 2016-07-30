@@ -66,7 +66,7 @@ gulp.task("webserver", function() {
 // Watch task
 ////////////////////////////////////////////////////////////////////////////////
 gulp.task('watch', function() {
-  gulp.watch(srcPath + 'react-jsx/*.jsx', ['jsx']); // JSX files.
+  gulp.watch(srcPath + 'javascript/**/*.jsx', ['jsx']); // JSX files.
   gulp.watch(srcPath + 'stylesheets/**/*.scss', ['stylesheets']); // SASS Main.
   gulp.watch(srcPath + 'stylesheets/**/_*.scss', ['stylesheets']); // SASS Partials.
   gulp.watch(srcPath + '*.html', ['html']);
