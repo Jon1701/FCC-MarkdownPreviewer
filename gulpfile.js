@@ -13,6 +13,12 @@ var srcPath = './source/';
 var destPath = './build/';
 var modulesPath = './node_modules/';
 
+// Components.
+gulp.task('components', function() {
+  gulp.src(srcPath + 'components/bootstrap-grid/**/*')
+    .pipe(gulp.dest(destPath + 'components/bootstrap-grid/'));
+});
+
 // JSX
 gulp.task('jsx', function() {
   gulp.src(srcPath + 'javascript/index.jsx')
@@ -75,4 +81,4 @@ gulp.task('watch', function() {
 ////////////////////////////////////////////////////////////////////////////////
 // Default task
 ////////////////////////////////////////////////////////////////////////////////
-gulp.task('default', ['webserver', 'watch', 'jsx', 'stylesheets', 'html']);
+gulp.task('default', ['webserver', 'watch', 'components', 'jsx', 'stylesheets', 'html']);
