@@ -36,7 +36,7 @@ class App extends React.Component {
       <div className="container">
 
         <div className="container text-center">
-          <h1>FreeCodeCamp Markdown Previewer</h1>
+          <h1 className="title">FreeCodeCamp Markdown Previewer</h1>
         </div>
 
         <div className="container">
