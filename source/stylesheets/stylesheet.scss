@@ -1,5 +1,8 @@
+body {
+  font-size: 100%;
+}
+
 .container {
-  border: solid 1px black;
   width: 100%;
 }
 
@@ -7,12 +10,38 @@
   text-align: center;
 }
 
+.title {
+  font-size: 3em;
+}
 
-.section-textarea {
+#section-textarea {
+  font-size: 2em;
+
   padding: 0;
   margin: 0;
-  textarea {
+
+  .content {
+
+    margin: 1%;
+
+    textarea {
+      width: 100%;
+      min-height: 50vh;
+    }
+  }
+
+}
+
+#section-preview {
+  font-size: 2em;
+
+  padding: 0;
+  margin: 0;
+  .content {
     width: 100%;
     min-height: 50vh;
+
+    margin: 3%;
+    overflow: auto
   }
 }
