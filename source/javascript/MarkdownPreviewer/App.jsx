@@ -39,7 +39,7 @@ class App extends React.Component {
 
         <div className="container">
           <TextArea getMarkdown={this.getMarkdown.bind(this)}/>
-          <PreviewArea/>
+          <PreviewArea markdown={this.state.markdown}/>
         </div>
       </div>
     )
