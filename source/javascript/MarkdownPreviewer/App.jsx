@@ -1,6 +1,8 @@
+// React.
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+// Components.
 import TextArea from './TextArea.jsx';
 import PreviewArea from './PreviewArea.jsx';
 
@@ -41,6 +43,7 @@ class App extends React.Component {
           <TextArea getMarkdown={this.getMarkdown.bind(this)}/>
           <PreviewArea markdown={this.state.markdown}/>
         </div>
+
       </div>
     )
   }
