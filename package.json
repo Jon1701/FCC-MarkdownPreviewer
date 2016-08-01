@@ -25,6 +25,7 @@
     "gulp-babel": "^6.1.2",
     "gulp-sass": "^2.3.2",
     "gulp-webserver": "^0.9.1",
+    "marked": "^0.3.6",
     "react": "^15.3.0",
     "react-contenteditable": "^1.1.0",
     "react-dom": "^15.3.0",
