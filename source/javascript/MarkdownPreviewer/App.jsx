@@ -5,6 +5,12 @@ import TextArea from './TextArea.jsx';
 import PreviewArea from './PreviewArea.jsx';
 
 class App extends React.Component {
+
+  constructor() {
+    super();
+  }
+
+  // Component render.
   render() {
     return (
       <div className="container">
