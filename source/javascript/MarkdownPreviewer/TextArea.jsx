@@ -15,6 +15,7 @@ class TextArea extends React.Component {
 
   // Component render.
   render() {
+
     return (
       <div id="section-textarea" className="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
 
@@ -23,7 +24,7 @@ class TextArea extends React.Component {
         </div>
 
         <div className="content">
-          <textarea onChange={this.handleChange.bind(this)} defaultValue={null}/>
+          <textarea onChange={this.handleChange.bind(this)} defaultValue={this.props.defaultValue}/>
         </div>
 
       </div>

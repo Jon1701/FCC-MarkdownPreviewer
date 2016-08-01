@@ -12,6 +12,16 @@ class PreviewArea extends React.Component {
     this.refs.preview.innerHTML = marked(this.props.markdown);
   }
 
+  // Default markdown render.
+  componentDidMount() {
+    this.refs.preview.innerHTML = marked(this.props.markdown);
+  }
+
+  // Component constructor.
+  constructor() {
+    super();
+  }
+
   // Component render.
   render() {
 
